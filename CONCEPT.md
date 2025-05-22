@@ -73,7 +73,7 @@ Clusters: Group multiple ESXi hosts to pool resources, managed by vCenter.
 DRS: Automatically balances VM workloads based on resource usage.
 Resource Pools: Allocate CPU and memory to groups of VMs for prioritization.
 
-#Advanced Concepts
+# Advanced Concepts
 
 ##1. High Availability (HA) and Fault Tolerance (FT)
 HA:
@@ -121,7 +121,7 @@ Site Recovery Manager (SRM): Automates failover and failback for disaster recove
 Replication: Use vSphere Replication to replicate VMs to a secondary site.
 Backup Solutions: Integrate with tools like Veeam or Dell EMC Avamar for VM backups.
 
-#Learning Path for VMware vSphere
+# Learning Path for VMware vSphere
 
 ##Step 1: Master the Basics
 Understand Virtualization: Study core concepts like hypervisors, VMs, and resource pooling.
@@ -175,7 +175,8 @@ Practical Tips for Associate Consultant Role
 Client-Focused Skills:
 Learn to gather client requirements (e.g., storage needs, VM workloads) and propose vSphere solutions.
 Practice explaining vSphere benefits (e.g., cost savings, scalability) to non-technical stakeholders.
-Troubleshooting:
+
+##Troubleshooting:
 Common issues: VM performance lag, vMotion failures, datastore connectivity.
 Use logs (e.g., /var/log/vmware on ESXi) and tools like vRealize Log Insight.
 Real-World Scenarios:
@@ -183,18 +184,18 @@ Design a vSphere cluster for a small business with 50 VMs.
 Plan a migration from physical servers to a vSphere environment.
 Resources to Learn vSphere
 
-#Free Resources:
+# Free Resources:
 
 VMware’s Free e-Learning: https://www.vmware.com/learn.html
 VMware Hands-On Labs: https://labs.hol.vmware.com
 VMware Documentation: https://docs.vmware.com/en/VMware-vSphere/
 
-#Paid Courses:
+# Paid Courses:
 
 VMware Education: “vSphere: Install, Configure, Manage” (~$4,250).
 Pluralsight, Udemy, or CBT Nuggets (~$10–$200).
 
-#Books:
+# Books:
 
 “Mastering VMware vSphere 6.7” by Nick Marshall (for older versions, but concepts apply).
 “VMware vSphere 8.x Professional” (check for updated editions).
@@ -210,6 +211,6 @@ Tanzu Integration: Learn VMware Tanzu for running Kubernetes workloads on vSpher
 NSX-T: Explore VMware’s network virtualization for advanced vSphere networking.
 vRealize Suite: Master monitoring and automation tools for large-scale vSphere deployments.
 
-#Certifications:
+# Certifications:
 VMware Certified Advanced Professional (VCAP-DCV): For design or deployment expertise.
 VMware Certified Master Specialist: For elite vSphere skills.
