@@ -10,21 +10,31 @@ vSphere abstracts physical server resources (CPU, memory, storage, and networkin
 # Basic Concepts of VMware vSphere
 ## 1. Virtualization Basics
 Virtualization: The process of creating virtual versions of physical resources (e.g., servers, storage, networks). In vSphere, server virtualization allows multiple VMs to share a single physical server’s resources.
+
 Hypervisor: The software layer that enables virtualization. ESXi is a Type-1 hypervisor, running directly on hardware for better performance.
+
 Virtual Machine (VM): A software-based computer that runs an operating system (e.g., Windows, Linux) and applications, emulating a physical machine.
 
 ## 2. Key Components of vSphere
 ESXi Host: A physical server with ESXi installed, hosting multiple VMs. It manages CPU, memory, storage, and networking resources for VMs.
+
 vCenter Server: A centralized management platform (deployed as a VM or on a physical server) that provides a single interface to manage multiple ESXi hosts, VMs, and features like clustering and high availability.
+
 Datastore: Storage locations (e.g., SAN, NAS, local disks) where VM files (virtual disks, configuration files) are stored.
+
 vSphere Client: A web-based or HTML5 interface to manage ESXi hosts and vCenter. The modern version is the vSphere Client (HTML5).
 
 ## 3. Core Features
 VM Creation and Management: Create, configure, and run VMs with different OSes (Windows, Linux, etc.).
+
 Resource Allocation: Assign CPU, memory, and storage to VMs dynamically.
+
 Live Migration (vMotion): Move running VMs between ESXi hosts without downtime.
+
 High Availability (HA): Automatically restart VMs on another host if one fails.
+
 Distributed Resource Scheduler (DRS): Balances VM workloads across hosts for optimal performance.
+
 Fault Tolerance (FT): Provides continuous availability by running duplicate VMs on separate hosts.
 
 ## 4. Benefits of vSphere
