@@ -1,8 +1,9 @@
 # What is VMware vSphere?
 VMware vSphere is a virtualization platform (Type-1 hypervisor) developed by VMware, a leading company in virtualization and cloud computing. It consists of two core components:
 
-1 VMware ESXi: A bare-metal hypervisor installed directly on physical servers to create and run multiple VMs.
-2- VMware vCenter Server: A centralized management tool for configuring, monitoring, and managing multiple ESXi hosts and their VMs.
+  1- VMware ESXi: A bare-metal hypervisor installed directly on physical servers to create and run multiple VMs.
+
+  2- VMware vCenter Server: A centralized management tool for configuring, monitoring, and managing multiple ESXi hosts and their VMs.
 
 vSphere abstracts physical server resources (CPU, memory, storage, and networking) into virtual resources, allowing multiple operating systems and applications to run on a single physical server as isolated VMs. It’s widely used in data centers, enterprises, and cloud environments for server virtualization.
 
